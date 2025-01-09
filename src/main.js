@@ -13,7 +13,7 @@ document.getElementById('analyzeForm').addEventListener('submit', async (e) => {
       errorMessage.style.display = 'none';
       
       try {
-        const response = await fetch('https://hook.eu2.make.com/xcjtcnx9wyadx4jx14xk2t2ytrgg9j1d', {
+        const response = await fetch('https://hook.eu2.make.com/e2jfj9kebkcqqcevlmbv68oa5aylsh4y', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
