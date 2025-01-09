@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Product Analyzer</title>
+      <link rel="stylesheet" href="/src/style.css">
+    </head>
+    <body>
+      <div class="hero">
+        <div class="container">
+          <h1>E-commerce Product Analyzer</h1>
+          <p class="description">Enter any e-commerce product link to get detailed insights</p>
+          <form id="analyzeForm">
+            <div class="input-group">
+              <input 
+                type="url" 
+                id="productUrl" 
+                placeholder="https://example.com/product"
+                required
+              >
+              <button type="submit" class="cta-button">
+                Analyze Product
+              </button>
+            </div>
+            <p class="error-message" id="errorMessage"></p>
+          </form>
+        </div>
+      </div>
+      <script src="/src/main.js"></script>
+    </body>
+    </html>
